@@ -20,9 +20,11 @@ h3 {
 
 .box{
   width: 750px;
-  height: 150px;
+  height: 85px;
   background: black;
   color: #cdcdcd;
+  text-align: center;
+  padding-top: 50px;
 }
 
 /* Giving our navbar some padding and a background color */
