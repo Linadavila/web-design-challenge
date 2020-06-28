@@ -27,6 +27,40 @@ h3 {
   padding-top: 50px;
 }
 
+
+/* format for visualization pages */
+
+/* .container {
+  width: 1024px;
+  margin: 0 auto;
+} */
+
+#main-bio,
+#contact-info{
+  float: left;
+}
+
+#bio-image {
+  float: left;
+  width: 650px;
+  height: 400px;
+}
+
+#figure {
+  position: relative;
+}
+
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#main-bio {
+  width: 90%;
+}
+
+
 /* Giving our navbar some padding and a background color */
 .navbar {
   height: 38px;
