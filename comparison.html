@@ -14,16 +14,25 @@
     <nav class="navbar">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="index.html">Home</a>
+        </li>
+        <!-- <li> -->
+          <div class="dropdown">
+            <button class="dropbtn">Visualizations</button>
+            <div class="dropdown-content">
+              <a href=".\visualizations\max_temp.html">Max Temperature</a><br><br>
+              <a href=".\visualizations\humidity.html">Humidity</a><br><br>
+              <a href=".\visualizations\cloud.html">Cloudiness</a><br><br>
+              <a href=".\visualizations\wind.html">Wind Speed</a><br><br>
+            </div>
+          </div>
+          
+        <!-- </li> -->
+        <li>
+          <a href="comparison.html">Comparisons</a>
         </li>
         <li>
-          <a href="#">Visualizations</a>
-        </li>
-        <li>
-          <a href="#">Comparisons</a>
-        </li>
-        <li>
-          <a href="#">Data</a>
+          <a href="data.html">Data</a>
         </li>
       </ul>
       <select id="nav-select">
@@ -34,6 +43,7 @@
       </select>
       <div class="clearfix"></div>
     </nav>
+
     <header class="header">
       <h1>Weather Comparison</h1>
     </header>
